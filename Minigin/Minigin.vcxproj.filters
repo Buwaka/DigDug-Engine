@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{c370cf3e-4a89-407b-adc9-e3fb0c594fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Various">
+      <UniqueIdentifier>{36c3323d-d6aa-4ce9-aea3-ab43241d177a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Components">
+      <UniqueIdentifier>{96fdbc5c-fe68-4d57-b10d-335b79ab8818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameObject">
+      <UniqueIdentifier>{fc9a1ee5-1844-415e-a904-7e47d2bf7a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Helpers">
+      <UniqueIdentifier>{af348267-c54b-445b-8d51-804b177474df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input">
+      <UniqueIdentifier>{6a78467b-db45-4592-8e38-ebb9420e0ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Math">
+      <UniqueIdentifier>{aff5c19f-2653-4460-8e9d-fd0c0ece79f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering">
+      <UniqueIdentifier>{0797f80a-d7a3-4967-877b-b1bf97a6eedb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene">
+      <UniqueIdentifier>{c771aaf4-9d2c-4988-b1b1-f2f6b6c2361a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DigDug">
+      <UniqueIdentifier>{892c1b40-4349-46fb-bef8-5e1e0094cfa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Components\ObjectComponents">
+      <UniqueIdentifier>{b38be4fc-1a1f-4c65-9584-67779bfe8dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Components\SceneComponents">
+      <UniqueIdentifier>{d16a655d-64cc-4fa2-8441-0e39c21bccc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DigDug\Excercise 1">
+      <UniqueIdentifier>{de3ca0c9-67e7-4f1b-8c06-0444c65e1149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Collission">
+      <UniqueIdentifier>{2e6c8aec-84ec-4143-8bd6-3e359fe95817}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Time.h">
+      <Filter>Framework\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Framework\Various</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Framework\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Framework\Various</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Framework\Various</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Minigin.h" />
+    <ClInclude Include="Font.h">
+      <Filter>Framework\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Framework\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniginPCH.h">
+      <Filter>Framework\Various</Filter>
+    </ClInclude>
+    <ClInclude Include="GameContext.h">
+      <Filter>Framework\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceMath.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSComponent.h">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="TextComponent.h">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureComponent.h">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneComponent.h">
+      <Filter>Framework\Components\SceneComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GridComponent.h">
+      <Filter>Framework\Components\SceneComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="DigDugScene.h">
+      <Filter>DigDug</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSettings.h">
+      <Filter>Framework\Various</Filter>
+    </ClInclude>
+    <ClInclude Include="DigDugCharacter.h">
+      <Filter>DigDug</Filter>
+    </ClInclude>
+    <ClInclude Include="CollissionComponent.h">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCommand.h">
+      <Filter>Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorFormats.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Pooka.h">
+      <Filter>DigDug</Filter>
+    </ClInclude>
+    <ClInclude Include="CollissionManager.h">
+      <Filter>Framework\Collission</Filter>
+    </ClInclude>
+    <ClInclude Include="CollissionCommand.h">
+      <Filter>Framework\Collission</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Framework\Collission</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Framework\Various</Filter>
+    </ClInclude>
+    <ClInclude Include="AIComponent.h">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>DigDug</Filter>
+    </ClInclude>
+    <ClInclude Include="Casting.h">
+      <Filter>Framework\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Fygar.h">
+      <Filter>DigDug</Filter>
+    </ClInclude>
+    <ClInclude Include="DigDugUI.h">
+      <Filter>DigDug</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Framework\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Framework\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="DigDugObserver.h">
+      <Filter>DigDug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Time.cpp">
+      <Filter>Framework\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Framework\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Framework\Various</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Minigin.cpp" />
+    <ClCompile Include="Font.cpp">
+      <Filter>Framework\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Framework\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniginPCH.cpp">
+      <Filter>Framework\Various</Filter>
+    </ClCompile>
+    <ClCompile Include="GameContext.cpp">
+      <Filter>Framework\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSComponent.cpp">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="TextComponent.cpp">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureComponent.cpp">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GridComponent.cpp">
+      <Filter>Framework\Components\SceneComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="DigDugScene.cpp">
+      <Filter>DigDug</Filter>
+    </ClCompile>
+    <ClCompile Include="DigDugCharacter.cpp">
+      <Filter>DigDug</Filter>
+    </ClCompile>
+    <ClCompile Include="CollissionComponent.cpp">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Framework\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Pooka.cpp">
+      <Filter>DigDug</Filter>
+    </ClCompile>
+    <ClCompile Include="CollissionManager.cpp">
+      <Filter>Framework\Collission</Filter>
+    </ClCompile>
+    <ClCompile Include="AIComponent.cpp">
+      <Filter>Framework\Components\ObjectComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Fygar.cpp">
+      <Filter>DigDug</Filter>
+    </ClCompile>
+    <ClCompile Include="DigDugUI.cpp">
+      <Filter>DigDug</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Framework\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="DigDugObserver.cpp">
+      <Filter>DigDug</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
